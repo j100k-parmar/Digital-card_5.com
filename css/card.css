@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#card{
+    width: 415px;
+    height: 640px;
+    border: 6px solid gray;
+    margin: auto;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.profile{
+    background-image: url(../img/bg.jpg);
+    width: 415px;
+    height: 275px;
+    background-size: cover;
+    
+}
+.man{
+    /* background-image:url(../img/profile.png); */
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    background-color:white;
+    border-radius: 50%;
+    padding-left: 7px;
+}
+.man img{
+    width: 130px;
+}
+.font{
+    text-align: center;
+    color:white;
+    font-weight: 400;
+}
+.h2{
+    color: orange;
+    text-align: center;
+}
+#info{
+    background-color: rgb(212, 207, 207);
+    padding-top: 2px;
+    height: 315px;
+}
+.coffee{
+    text-align: center;
+    }
+   
+.cup{
+    color: orange;
+    text-align: center;
+    float: left;
+    margin-top: -10px;
+}
+.cup:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+    
+}
+.line1{
+    background-color: orange;
+    width: 50px;
+    height: 3px;
+    float: left;
+    margin-left: 150px;
+    margin-top:-2px;
+}
+.line2{
+    background-color: orange;
+    width: 50px;
+    height: 3px;
+    float: left;
+    margin-top: -2px;
+}
+.line3{
+    width: 3px;
+    height: 50px;
+    background-color: orange;
+    margin: 8px 0 0 8px;
+
+    
+}
+.details{
+    float: left;
+    margin-left: 35px;
+    margin-top: -37px;
+}
+.contact{
+    width:30px;
+    height:30px;
+    float: left;
+    border-radius: 50%;
+    color:white;
+    background-color: orange;
+    margin: auto;
+}
+.contact i{
+    margin: 8px;
+}
+.contact i:hover{
+    transform: rotatey(360deg);
+    transition: 2s;
+
+}
+.number{
+    width: 222px;
+    height: 25px;
+    background-color: white;
+    margin-left: 40px;
+    padding-top: 5px;
+    padding-left: 9px;
+    border-radius: 20px;
+    
+}
+.number a{
+    text-decoration: none;
+}
+.media{
+    background-color: orange;
+    width: 415px;
+    height: 48px;
+
+}
+.icon{
+    color: rgb(90, 112, 177);
+    float: left;
+    margin: 12px 0 0 50px;
+    font-size: 25px;
+}
+.icon a:hover{
+    font-size: 35px;
+    color: white;
+
+}
